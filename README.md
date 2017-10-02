@@ -38,3 +38,8 @@ Then switch to the PR you want to try out:
 And that's all you need to do to use the patched compiler.  Once you have
 tested the patch, don't forget to comment on the pull request with anything
 you've learnt from the usage of the patch.
+
+## Questions
+
+* OCaml [discussion forum](https://discuss.ocaml.org)
+* [opam development list](mailto:opam-devel@lists.ocaml.org)
