@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/dra27/ocaml/archive/simpler-ocamlobjinfo-test.tar.gz"
+src: "https://github.com/chambart/ocaml-1/archive/partial_toplevel_constants.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]

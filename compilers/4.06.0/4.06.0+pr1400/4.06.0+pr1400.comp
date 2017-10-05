@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/damiendoligez/ocaml/archive/fix-flexdll-bootstrap.tar.gz"
+src: "https://github.com/lthls/ocaml/archive/cmm_invariants.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
