@@ -1,1 +1,1 @@
-Compile the gethostbyname.c test with -Werror.
+Fix testing and handling of gethostbyname on non-GNU
