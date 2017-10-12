@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/dra27/ocaml/archive/windows10-unicode.tar.gz"
+src: "https://github.com/trefis/ocaml/archive/parmatch-old-bug.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]

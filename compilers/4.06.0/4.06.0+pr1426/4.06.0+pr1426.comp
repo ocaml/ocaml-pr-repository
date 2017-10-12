@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/shindere/ocaml/archive/fix-non-ascii.tar.gz"
+src: "https://github.com/dra27/ocaml/archive/ocamltest-no-cmp.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
