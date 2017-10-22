@@ -1,1 +1,0 @@
-ocamlc -config: introduce ocaml{c,opt}_cppflags
