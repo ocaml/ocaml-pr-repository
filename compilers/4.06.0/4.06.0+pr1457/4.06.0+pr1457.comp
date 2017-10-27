@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/dra27/ocaml/archive/appveyor-torture.tar.gz"
+src: "https://github.com/Octachron/ocaml/archive/ocamldoc_latex_exception_label.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
