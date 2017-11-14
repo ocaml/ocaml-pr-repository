@@ -1,0 +1,1 @@
+Trigger a minor GC when custom blocks accumulate in minor heap
