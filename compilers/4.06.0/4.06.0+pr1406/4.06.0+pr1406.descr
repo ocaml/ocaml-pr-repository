@@ -1,1 +1,0 @@
-caml_sys_isatty: detect Cygwin/MSYS for better -color heuristic
