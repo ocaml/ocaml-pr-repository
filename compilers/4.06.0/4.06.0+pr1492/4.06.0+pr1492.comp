@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/xavierleroy/ocaml/archive/no-curses.tar.gz"
+src: "https://github.com/xavierleroy/ocaml/archive/quote_command.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
