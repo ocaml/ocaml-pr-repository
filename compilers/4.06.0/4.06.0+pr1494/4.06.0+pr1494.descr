@@ -1,0 +1,1 @@
+MPR#7679: make sure `.a` files are erased before calling `ar rc`
