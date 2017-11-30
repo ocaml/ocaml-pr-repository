@@ -1,0 +1,1 @@
+Fix bug on unboxed records with one polymorphic field

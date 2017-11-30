@@ -1,0 +1,1 @@
+Fix bad interaction between Simplif and optimized compilation of tuple binding
