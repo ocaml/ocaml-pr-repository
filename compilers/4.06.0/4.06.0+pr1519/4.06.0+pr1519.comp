@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/nojb/ocaml/archive/spacetime_windows_fixes.tar.gz"
+src: "https://github.com/shindere/ocaml/archive/migrate-expect-tests.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
