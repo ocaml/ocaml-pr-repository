@@ -1,0 +1,1 @@
+ocamlc: more robust implementation of Misc.no_overflow_mul
