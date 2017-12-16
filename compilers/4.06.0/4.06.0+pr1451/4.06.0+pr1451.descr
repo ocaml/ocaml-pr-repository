@@ -1,1 +1,0 @@
-getpw* and getgr* functions no longer raise Not_found on unix errors
