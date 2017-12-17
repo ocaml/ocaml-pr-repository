@@ -1,0 +1,1 @@
+Remove -static-libgcc link flag from mingw32 port
