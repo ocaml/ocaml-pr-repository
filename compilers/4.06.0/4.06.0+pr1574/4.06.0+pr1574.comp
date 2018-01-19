@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/garrigue/ocaml/archive/fix_mpr7704.tar.gz"
+src: "https://github.com/objmagic/ocaml/archive/objmagic/fix-make-one-parallel.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
