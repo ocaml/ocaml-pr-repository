@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/matejkosik/ocaml/archive/20171222.tar.gz"
+src: "https://github.com/lthls/ocaml/archive/no_const_pointers.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
