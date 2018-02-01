@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/trefis/ocaml/archive/propagate_ty_arg_to_check.tar.gz"
+src: "https://github.com/shindere/ocaml/archive/remove-useless-test.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
