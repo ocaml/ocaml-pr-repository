@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.06.0"
-src: "https://github.com/trefis/ocaml/archive/enrich_typedecl.tar.gz"
+src: "https://github.com/shindere/ocaml/archive/migrate-asmcomp-tests.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
