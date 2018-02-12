@@ -1,1 +1,0 @@
-MPR#7710: ocamldep -sort: treat cyclic dependencies as an error
