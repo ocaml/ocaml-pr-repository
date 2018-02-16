@@ -1,0 +1,1 @@
+flambda: consider all bound variables when inlining
