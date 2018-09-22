@@ -1,1 +1,0 @@
-Make the check_all_arches target no-op on 32-bit architectures

@@ -1,1 +1,0 @@
-Fix testing and handling of gethostbyname on non-GNU
