@@ -7,7 +7,7 @@ It can be convenient to quickly try out a proposed patch and rapidly get a
 package development environment up and running, without having to manually
 recompile everything.
 
-This repository contains a set of opam1-format compiler descriptions that are
+This repository contains a set of opam2-format compiler descriptions that are
 dynamically generated daily from the list of active PRs in the OCaml GitHub
 repository.  They let you switch to any active PR using the
 [opam](https://opam.ocaml.org) package manager very easily:
