@@ -16,8 +16,7 @@ conflict-class: "ocaml-core-compiler"
 flags: compiler
 setenv: CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs"
 build: [
-  ["./configure" "-prefix" prefix -default-unsafe-string ] {os != "openbsd" & os != "freebsd" & os != "macos"}
-  [ "./configure" "-prefix" prefix -default-unsafe-string "-cc" "cc" "-aspp" "cc -c" ] {os = "openbsd" | os = "freebsd" | os = "macos"}
+  ["./configure" "-prefix" prefix "--with-default-string=unsafe" ]
   [make "world"]
   [make "world.opt"]
 ]
