@@ -16,8 +16,7 @@ conflict-class: "ocaml-core-compiler"
 flags: compiler
 setenv: CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs"
 build: [
-  ["./configure" "-prefix" prefix -flambda -with-frame-pointer ] {os != "openbsd" & os != "freebsd" & os != "macos"}
-  [ "./configure" "-prefix" prefix -flambda -with-frame-pointer "-cc" "cc" "-aspp" "cc -c" ] {os = "openbsd" | os = "freebsd" | os = "macos"}
+  ["./configure" "-prefix" prefix "--enable-flambda" "--enable-frame-pointers" ]
   [make "world"]
   [make "world.opt"]
 ]
